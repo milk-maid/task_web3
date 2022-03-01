@@ -1,0 +1,129 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: hsl(233, 47%, 7%);
+    color: #fff;
+
+}
+
+.holder {
+    border: 2px solid lime;
+    padding: 6.6em 0;
+    height: 100vh;
+}
+
+.container {
+    background: hsl(244, 38%, 16%);
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1440px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;;
+}
+
+.row {
+    border: 3px dashed chartreuse;
+    display: flex;
+    height: 60vh;
+}
+
+.part1 {
+    border: 1px solid red;
+    padding: 2em 3em;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.part2 {
+    background: hsl(277, 99%, 42%);
+    border-radius: 0px 10px 10px 0px;
+    width: 50%;
+}
+
+/* .one + .one{
+    margin-left: 2em;
+} */
+
+.desktop {
+    border-radius: 0px 10px 10px 0px;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile {
+    display: none;
+}
+
+.separate {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.text,
+ h1 {
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+    /* margin-bottom: 1em; */
+}
+
+.text p {
+    color: hsla(0, 0%, 100%, 0.55);
+    margin-bottom: 3.5em;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+span {
+    color: hsl(277, 64%, 61%)
+}
+
+.separate h1 {
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.9);
+    font-size: 1.15rem;
+    margin-bottom: 5px;
+    font-weight: 700; 
+}
+
+
+
+.separate p {
+    color: hsla(0, 0%, 100%, 0.55);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* #myImg {
+    filter: hue-rotate(90deg);
+} */
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: 20px; }
+.attribution a { color: hsl(228, 45%, 44%); }  
